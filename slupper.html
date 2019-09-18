@@ -4,7 +4,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from quixlab.com/demo/shukria/table-jsgrid.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Sep 2019 10:53:56 GMT -->
+<!-- Mirrored from quixlab.com/demo/shukria/form-validation-bootstrap.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Sep 2019 10:52:35 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +12,6 @@
     <title>Shukria - Bootstrap Multipurpose Admin Dashboard HTML Template</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <!-- JS Grid -->
-    <link rel="stylesheet" href="vendor/jsgrid/css/jsgrid.min.css">
-    <link rel="stylesheet" href="vendor/jsgrid/css/jsgrid-theme.min.css">
     <!-- Custom Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     
@@ -478,172 +475,159 @@
                 <div class="row page-titles mx-0" data-aos="fade-up">
                     <div class="col-sm-6 p-md-0">
                         <div class="welcome-text">
-                            <h4>Hi, welcome back!</h4>
+                            <h4>Ajani Eniola Solomon</h4>
                             <p class="mb-0">Your business dashboard template</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0)">Table</a></li>
-                            <li class="breadcrumb-item active"><a href="javascript:void(0)">JS Grid</a></li>
-                        </ol>
-                    </div>
+                  
                 </div>
                 <!-- row -->
-                
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card" data-aos="fade-up">
-                            <div class="card-header">
-                                <h4 class="card-title">JS Grid Table</h4>
-                            </div>
-                          
-                            <div class="card-body">
-                                    <div id="jsGrid-basic" class="jsgrid" style="position: relative; height: 400px; width: 100%;">
-                                      <div class="jsgrid-grid-header jsgrid-header-scrollbar">
-                                        <table class="jsgrid-table">
-                                          <tr class="jsgrid-header-row">
-                                            <th class="jsgrid-header-cell jsgrid-header-sortable" style="width: 150px;">Name</th>
-                                            <th class="jsgrid-header-cell text-center jsgrid-align-right jsgrid-header-sortable" style="width: 50px;">Age</th>
-                                            <th class="jsgrid-header-cell jsgrid-header-sortable" style="width: 200px;">Address</th>
-                                            <th class="jsgrid-header-cell jsgrid-align-center jsgrid-header-sortable" style="width: 100px;">Country</th>
-                                            <th class="jsgrid-header-cell jsgrid-align-center" style="width: 100px;">Is Married</th>
-                                            <th class="jsgrid-header-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-mode-button jsgrid-insert-mode-button" type="button" title=""></th>
-                                          </tr>
-                                          <tr class="jsgrid-filter-row" style="display: none;">
-                                            <td class="jsgrid-cell" style="width: 150px;"><input type="text"></td>
-                                            <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;"><input type="number"></td>
-                                            <td class="jsgrid-cell" style="width: 200px;"><input type="text"></td>
-                                            <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><select><option value="0"></option><option value="1">United States</option><option value="2">Canada</option><option value="3">United Kingdom</option></select></td>
-                                            <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" readonly=""></td>
-                                            <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-search-button" type="button" title="Search"><input class="jsgrid-button jsgrid-clear-filter-button" type="button" title="Clear filter"></td>
-                                          </tr>
-                                          <tr class="jsgrid-insert-row" style="display: none;">
-                                            <td class="jsgrid-cell" style="width: 150px;"><input type="text"></td>
-                                            <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;"><input type="number"></td>
-                                            <td class="jsgrid-cell" style="width: 200px;"><input type="text"></td>
-                                            <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><select><option value="0"></option><option value="1">United States</option><option value="2">Canada</option><option value="3">United Kingdom</option></select></td>
-                                            <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox"></td>
-                                            <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-insert-button" type="button" title="Insert"></td>
-                                          </tr>
-                                        </table>
-                                      </div>
-                                      <div class="jsgrid-grid-body" style="height: 325px;">
-                                        <table class="jsgrid-table">
-                                          <tbody>
-                                            <tr class="jsgrid-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Otto Clay</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">25</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">Ap #897-1459 Quam Avenue</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-alt-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Connor Johnston</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">45</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">Ap #370-4647 Dis Av.</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">Canada</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Lacey Hess</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">29</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">Ap #365-8835 Integer St.</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United Kingdom</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-alt-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-alt-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-alt-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-alt-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Timothy Henson</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">56</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">911-5143 Luctus Ave</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United States</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                            <tr class="jsgrid-alt-row">
-                                              <td class="jsgrid-cell" style="width: 150px;">Ramona Benton</td>
-                                              <td class="jsgrid-cell text-center jsgrid-align-right" style="width: 50px;">32</td>
-                                              <td class="jsgrid-cell" style="width: 200px;">Ap #614-689 Vehicula Street</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;">United Kingdom</td>
-                                              <td class="jsgrid-cell jsgrid-align-center" style="width: 100px;"><input type="checkbox" disabled=""></td>
-                                              <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 50px;"><input class="jsgrid-button jsgrid-edit-button" type="button" title="Edit"><input class="jsgrid-button jsgrid-delete-button" type="button" title="Delete"></td>
-                                            </tr>
-                                          </tbody>
-                                        </table>
-                                      </div>
-                                      <div class="jsgrid-pager-container" style="display: none;">
-                                        <div class="jsgrid-pager">Pages: <span class="jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"><a href="javascript:void(0);">First</a></span> <span class="jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"><a href="javascript:void(0);">Prev</a></span>
-                                          <span
-                                            class="jsgrid-pager-page jsgrid-pager-current-page">1</span> <span class="jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"><a href="javascript:void(0);">Next</a></span> <span class="jsgrid-pager-nav-button jsgrid-pager-nav-inactive-button"><a href="javascript:void(0);">Last</a></span>          &nbsp;&nbsp; 1 of 1 </div>
-                                      </div>
-                                      <div class="jsgrid-load-shader" style="display: none; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: 1000;"></div>
-                                      <div class="jsgrid-load-panel" style="display: none; position: absolute; top: 50%; left: 50%; z-index: 1000;">Please, wait...</div>
+               
+
+        <div class="row">
+                <div class="col-md-12">
+                    <div class="card" data-aos="fade-up">
+                        
+                        <div class="card-body">
+                            <!-- Nav tabs -->
+                            <div class="default-tab">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#home">Transcation</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#profile">Supplier Information</a>
+                                    </li>
+                                    
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel">
+                                            <div class="card-body">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered table-responsive-sm">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>DATE</th>
+                                                                    <th>TYPE</th>
+                                                                    <th>NO</th>
+                                                                    <th>PAYEE</th>
+                                                                    <th>CATEGORY</th>
+                                                                    
+                                                                    <th>STATUS</th>
+                                                                    <th>ACTION</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                <th>1/12/90</th>
+                                                                <td>Kolor Tea Shirt For Man</td>
+                                                                <td>12</td>
+                                                                <th>1/12/90</th>
+                                                               
+                                                                <td>40000</td>
+                                                               
+                                                                <td>Approved</td>
+                                                                    <td class="color-primary">+</td>
+                                                                </tr>
+                                                               
+                                                                
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
                                     </div>
-                                  </div>
-                            
-                        </div>            
+                                    <div class="tab-pane fade" id="profile">
+                                            <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="card" data-aos="fade-up">
+                                                            <div class="card-body">
+                                                                <h4 class="mb-5 card-title">Supplier Details</h4>
+                                                                <form class="needs-validation" novalidate>
+                                                                    <div class="form-row">
+                                                                        <div class="col-md-6 mb-3">
+                                                                            <label for="validationCustom01">Suppliers/Company Name</label>
+                                                                            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                                                                            <div class="valid-feedback">
+                                                                                Looks good!
+                                                                            </div>
+                                                                        </div>
+                                                                       
+                                                                        <div class="col-md-6 mb-3">
+                                                                            <label for="validationCustomUsername"> Supplier/Company Official Email </label>
+                                                                            <div class="input-group">
+                                                                                <div class="input-group-prepend">
+                                                                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control" id="validationCustomUsername" placeholder="xyz@gmail.co" aria-describedby="inputGroupPrepend" required>
+                                                                              
+                                                                            </div>
+                                                                        </div>
+                                                                    <!-- </div>
+                                                                    <div class="form-row"> -->
+                                                                        <div class="col-md-6 mb-3">
+                                                                            <label for="validationCustom03"> Company/Supplier Address</label>
+                                                                            <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                                                                            <div class="invalid-feedback">
+                                                                                Please provide a valid city.
+                                                                            </div>
+                                                                        </div>
+                                                                      
+                                                                       
+                                                                        
+                                                                      
+                                                                      
+                                                                
+                                                                        <div class="col-md-6 mb-3">
+                                                                            <label for="">Your Compy URL</label>
+                                                                            <input type="url" name="" required placeholder="Your Compy URL" class="form-control" id="">
+                                                                            <div class="invalid-feedback">
+                                                                                Please provide an URL
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6 mb-3">
+                                                                            <label for=""> Company/Supplier Phone_number</label>
+                                                                            <input type="text" name="" required placeholder="Only number input here" class="form-control shouldNumber" id="">
+                                                                            <div class="invalid-feedback">
+                                                                                Please write a number here!
+                                                                            </div>
+                                                                        </div>
+                                                                   
+                                                                        <div class="col-md-6 mb-3">
+                                                                            <label for="">File</label>
+                                                                            <div class="custom-file mb-4">
+                                                                                <input type="file" class="form-control " id="validatedCustomFile" required>
+                                                                                <label class="custom-file-label d-none" for="validatedCustomFile">Choose file...</label>
+                                                                                <div class="invalid-feedback">Please select a file</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-3">
+                                                                            <label for="">Note</label>
+                                                                            <textarea required placeholder="Only number input here" class="form-control"></textarea>
+                                                                            <div class="invalid-feedback">
+                                                                                Please write something here
+                                                                            </div>
+                                                                        </div>
+                                                                     
+                                                                      
+                                                                    </div>
+                                                                    <button class="btn btn-primary bs-submit" type="submit">Edit Form</button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                   
+                                  
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+</div>
+                
+        
         </div>
         <!--**********************************
             Content body end
@@ -653,11 +637,7 @@
         <!--**********************************
             Footer start
         ***********************************-->
-        <div class="footer">
-            <div class="copyright">
-                <p>Copyright © Designed &amp; Developed by <a href="https://themeforest.net/user/quixlab" target="_blank">Quixlab</a> 2019</p>
-            </div>
-        </div>
+        
         <!--**********************************
             Footer end
         ***********************************-->
@@ -1124,14 +1104,9 @@
     <!-- Demo scripts -->
     <script src="js/styleSwitcher.js"></script>
     <!--endRemoveIf(production)-->
-    
-    
-    <!-- JS Grid -->
-    <script src="vendor/jsgrid/js/jsgrid.min.js"></script>
-    <!-- JS Grid Init -->
-    <script src="js/plugins-init/jsgrid-init.js"></script>
+    <script src="js/plugins-init/form-bootstrap-validate-init.js"></script>
 
 </body>
 
-<!-- Mirrored from quixlab.com/demo/shukria/table-jsgrid.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Sep 2019 10:53:58 GMT -->
+<!-- Mirrored from quixlab.com/demo/shukria/form-validation-bootstrap.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Sep 2019 10:52:35 GMT -->
 </html>
